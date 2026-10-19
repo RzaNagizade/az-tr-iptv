@@ -1,31 +1,53 @@
 #EXTM3U
-#EXTINF:-1,Az TV (rəsmi sayt)
-https://str.yodacdn.net/azertv/tracks-v3a1/mono.ts.m3u8?token=eyJ2IjoyLCJzaXRlIjoiYXp0diIsImlwIjoiNjIuMjE3LjE0Ny44MSIsInVhaCI6ImE2NTQwMWNlMTAxNDRmYTAiLCJpYXQiOjE3OTI0NDAzMTUsImV4cCI6MTc5MjUyNjcxNSwianRpIjoiYzYzYjcwZmYwZWU4YTYxYiJ9._XIeuWha_O_VE0Ifj0MFPh7vyvOh-ezVv7jaHjv1xik
-#EXTINF:-1 tvg-id="BakuTV.az@SD" tvg-logo="https://i.imgur.com/r4FzxSg.png" group-title="News",Baku.TV
-https://rtmp.baku.tv/hls/bakutv.m3u8
-#EXTINF:-1 tvg-id="CBCSport.az@HD" tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports",CBC Sport [Geo-blocked]
-https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
-#EXTINF:-1 tvg-id="IctimaiTV.az@SD" tvg-logo="https://i.imgur.com/HzY4VMo.png" group-title="General",Ictimai TV
-https://live.itv.az/itv.m3u8
-#EXTINF:-1 tvg-id="XezerTV.az@SD" tvg-logo="" group-title="General",Xezer TV (720p)
-https://www.xezerxeber.az/stream/index.m3u8
-#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="General",ATV (Turkiye) (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 tvg-id="Kanal7.tr@SD" tvg-logo="https://i.imgur.com/0gq9xOm.png" group-title="Entertainment",Kanal 7 (720p)
-https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="General",Kanal D (Turkiye) (1080p)
-https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 tvg-id="NOWTV.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Entertainment",NOW TV (720p)
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 tvg-id="ShowTurk.tr@SD" tvg-logo="https://i.imgur.com/fdZpGDj.png" group-title="Undefined",Show Turk (1080p)
-https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
-#EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Undefined",Star TV (Turkiye) (720p)
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" group-title="Undefined",TRT 1 (1440p)
-https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTSpor.tr@SD" tvg-logo="https://i.imgur.com/6tv0zxh.png" group-title="Sports",TRT Spor (720p)
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
-#EXTINF:-1 tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" group-title="General",TV8 (Turkiye) (1080p)
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-#EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="RealTV.az" tvg-country="AZ" group-title="Azerbaijan",Real TV Ⓨ
-https://www.youtube.com/channel/UCjpoTfA8TXO6QfAWiAB67eA/live
+#EXTINF:-1,AZTV HD
+http://149.255.154.194/azertv/index.m3u8
+#EXTINF:-1,Ictimai TV
+http://149.255.154.194/ictimaitele/index.m3u8
+#EXTINF:-1,Xezer TV
+http://149.255.154.194/xazartv/index.m3u8
+#EXTINF:-1,Azad Azerbaycan TV HD
+http://149.255.154.194/atv/index.m3u8
+#EXTINF:-1,ARB
+http://149.255.154.194/arb/index.m3u8
+#EXTINF:-1,Space TV HD
+http://149.255.154.194/space/index.m3u8
+#EXTINF:-1,ARB24
+http://149.255.154.194/arb24/index.m3u8
+#EXTINF:-1,REAL TV
+http://149.255.154.194/real/index.m3u8
+#EXTINF:-1,APA TV HD
+http://149.255.154.194/apatv/index.m3u8
+#EXTINF:-1,BAKU TV HD
+http://149.255.154.194/bakutv/index.m3u8
+#EXTINF:-1,Medeniyyet TV HD
+http://149.255.154.194/medeniyyettele/index.m3u8
+#EXTINF:-1,NAXCIVAN TV HD
+http://149.255.154.194/ntv/index.m3u8
+#EXTINF:-1,BIZNES TV HD
+http://149.255.154.194/biznestv/index.m3u8
+#EXTINF:-1,KANAL S HD
+http://149.255.154.194/start/index.m3u8
+#EXTINF:-1,QAFQAZ TV HD
+http://149.255.154.194/qafkaz/index.m3u8
+#EXTINF:-1,ARB Günes
+http://149.255.154.194/arbgunesh/index.m3u8
+#EXTINF:-1,Kanal 35 HD
+http://149.255.154.194/kanal35/index.m3u8
+#EXTINF:-1,IDMAN AZERBAYCAN HD
+http://149.255.154.194/idmantele/index.m3u8
+#EXTINF:-1,VIP TV HD
+http://149.255.154.194/vip/index.m3u8
+#EXTINF:-1,ELTV
+http://149.255.154.194/eltv/index.m3u8
+#EXTINF:-1,CBC AZ
+http://149.255.154.194/cbc/index.m3u8
+#EXTINF:-1,MTV AZ HD
+http://149.255.154.194/mtvaz/index.m3u8
+#EXTINF:-1,Vostok TV
+http://149.255.154.194/tmb/index.m3u8
+#EXTINF:-1,TMB AZ
+http://149.255.154.194/tmbaz/index.m3u8
+#EXTINF:-1,SHOW PLUS
+http://149.255.154.194/showplus/index.m3u8
+#EXTINF:-1,SEHIYYE TV
+http://149.255.154.194/shtv/index.m3u8
