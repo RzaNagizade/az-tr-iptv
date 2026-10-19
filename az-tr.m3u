@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1,Az TV (rəsmi sayt)
-https://str.yodacdn.net/azertv/tracks-v3a1/mono.ts.m3u8?token=eyJ2IjoyLCJzaXRlIjoiYXp0diIsImlwIjoiNjIuMjE3LjE0Ny44MSIsInVhaCI6ImE2NTQwMWNlMTAxNDRmYTAiLCJpYXQiOjE3OTI0NDAzMTUsImV4cCI6MTc5MjUyNjcxNSwianRpIjoiYzYzYjcwZmYwZWU4YTYxYiJ9._XIeuWha_O_VE0Ifj0MFPh7vyvOh-ezVv7jaHjv1xik
+http://149.255.154.194/azertv/index.m3u8
 #EXTINF:-1 tvg-id="BakuTV.az@SD" tvg-logo="https://i.imgur.com/r4FzxSg.png" group-title="News",Baku.TV
 https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 tvg-id="CBCSport.az@HD" tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports",CBC Sport [Geo-blocked]
