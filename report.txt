@@ -6,8 +6,7 @@ TAPILAN kanallar:
   + Az TV
   + Real TV
   + Baku TV
-  + Kanal D
-  + TRT 1
+  + APA Tv
   + Show TV
   + TV8
   + Star TV
