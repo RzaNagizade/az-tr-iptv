@@ -16,15 +16,17 @@ jobs:
 
       - name: Download source playlists
         run: |
-          curl -fsSL https://iptv-org.github.io/iptv/countries/az.m3u -o az.m3u
-          curl -fsSL https://iptv-org.github.io/iptv/countries/tr.m3u -o tr.m3u
+          curl -fsSL https://iptv-org.github.io/iptv/countries/az.m3u -o az.m3u || echo "az.m3u alinmadi"
+          curl -fsSL https://iptv-org.github.io/iptv/countries/tr.m3u -o tr.m3u || echo "tr.m3u alinmadi"
+          curl -fsSL https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_azerbaijan.m3u8 -o free-az.m3u || echo "free-az alinmadi"
+          curl -fsSL https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_turkey.m3u8 -o free-tr.m3u || echo "free-tr alinmadi"
 
       - name: Build playlist
         run: python3 build.py
 
       - name: Commit changes
         run: |
-          rm -f az.m3u tr.m3u
+          rm -f az.m3u tr.m3u free-az.m3u free-tr.m3u
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add az-tr.m3u report.txt
