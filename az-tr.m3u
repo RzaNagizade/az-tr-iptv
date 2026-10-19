@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AzTV.az@SD" tvg-logo="https://i.imgur.com/snBMMeH.png" group-title="General",Az TV (1080p)
-https://str.yodacdn.net/azertv/index.m3u8
+#EXTINF:-1,Az TV (rəsmi sayt)
+https://str.yodacdn.net/azertv/tracks-v3a1/mono.ts.m3u8?token=eyJ2IjoyLCJzaXRlIjoiYXp0diIsImlwIjoiNjIuMjE3LjE0Ny44MSIsInVhaCI6ImE2NTQwMWNlMTAxNDRmYTAiLCJpYXQiOjE3OTI0NDAzMTUsImV4cCI6MTc5MjUyNjcxNSwianRpIjoiYzYzYjcwZmYwZWU4YTYxYiJ9._XIeuWha_O_VE0Ifj0MFPh7vyvOh-ezVv7jaHjv1xik
 #EXTINF:-1 tvg-id="BakuTV.az@SD" tvg-logo="https://i.imgur.com/r4FzxSg.png" group-title="News",Baku.TV
 https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 tvg-id="CBCSport.az@HD" tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports",CBC Sport [Geo-blocked]
@@ -27,3 +27,5 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 https://corestream.siteyaptim.live/trt-spor/index.m3u8
 #EXTINF:-1 tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" group-title="General",TV8 (Turkiye) (1080p)
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-name="Real TV" tvg-logo="https://i.imgur.com/e2KFL0R.png" tvg-id="RealTV.az" tvg-country="AZ" group-title="Azerbaijan",Real TV Ⓨ
+https://www.youtube.com/channel/UCjpoTfA8TXO6QfAWiAB67eA/live
