@@ -25,7 +25,8 @@ WANTED = {
     "TRT Spor": ["trt spor"],
 }
 
-SOURCES = ["az.m3u", "tr.m3u"]
+# Sira vacibdir: evvelki yuksek prioritetdir.
+SOURCES = ["az.m3u", "tr.m3u", "free-az.m3u", "free-tr.m3u"]
 CUSTOM = "custom.m3u"  # istege bagli: oz kanallarinizi bura yaza bilersiniz
 
 
@@ -39,6 +40,7 @@ def norm(text):
 
 def clean_title(extinf):
     title = extinf.rsplit(",", 1)[-1]
+    title = re.sub(r"[\u24B6-\u24E9]", "", title)
     title = re.sub(r"\(.*?\)|\[.*?\]", "", title)
     return norm(title)
 
@@ -63,28 +65,32 @@ for channel, aliases in WANTED.items():
 found = {}
 out = ["#EXTM3U"]
 
+# 1) Sizin oz linkleriniz (custom.m3u) - birinci prioritet
+if os.path.exists(CUSTOM):
+    for block in read_blocks(CUSTOM):
+        out.extend(block)
+        ch = alias_to_channel.get(clean_title(block[0]))
+        if ch:
+            found[ch] = found.get(ch, 0) + 1
+
+# 2) Siyahilar: her kanaldan yalniz BIR link, yalniz yuxaridan tapilmayibsa
 for src in SOURCES:
     if not os.path.exists(src):
         continue
     for block in read_blocks(src):
-        title = clean_title(block[0])
-        if title in alias_to_channel:
+        ch = alias_to_channel.get(clean_title(block[0]))
+        if ch and ch not in found:
             out.extend(block)
-            ch = alias_to_channel[title]
-            found[ch] = found.get(ch, 0) + 1
-
-if os.path.exists(CUSTOM):
-    for block in read_blocks(CUSTOM):
-        out.extend(block)
+            found[ch] = 1
 
 with open("az-tr.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(out) + "\n")
 
 with open("report.txt", "w", encoding="utf-8") as f:
-    f.write("TAPILAN kanallar (yayim linklerinin sayi):\n")
+    f.write("TAPILAN kanallar:\n")
     for ch in WANTED:
         if ch in found:
-            f.write(f"  + {ch}: {found[ch]}\n")
+            f.write(f"  + {ch}\n")
     f.write("\nTAPILMAYAN kanallar (siyahida yoxdur):\n")
     for ch in WANTED:
         if ch not in found:
