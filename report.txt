@@ -1,0 +1,20 @@
+TAPILAN kanallar (yayim linklerinin sayi):
+  + Xezer TV: 1
+  + ATV: 1
+  + Ictimai TV: 1
+  + CBC Sport: 1
+  + Az TV: 1
+  + Baku TV: 1
+  + Kanal D: 1
+  + TRT 1: 1
+  + Show TV: 1
+  + TV8: 1
+  + Star TV: 1
+  + Kanal 7: 1
+  + FOX / NOW: 1
+  + TRT Spor: 1
+
+TAPILMAYAN kanallar (siyahida yoxdur):
+  - ARB
+  - Space TV
+  - Real TV
