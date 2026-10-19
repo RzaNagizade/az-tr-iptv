@@ -16,7 +16,7 @@ WANTED = {
     "Real TV": ["real tv"],
     "Baku TV": ["baku tv"],
     "Xezer TV": ["xezer tv"],
-    "TRT 1": ["trt 1"],
+    "APA Tv": ["apa tv"],
     "Show TV": ["show tv", "show turk"],
     "TV8": ["tv8", "tv 8"],
     "Star TV": ["star tv"],
