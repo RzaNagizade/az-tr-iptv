@@ -1,0 +1,32 @@
+name: Update playlist
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download source playlists
+        run: |
+          curl -fsSL https://iptv-org.github.io/iptv/countries/az.m3u -o az.m3u
+          curl -fsSL https://iptv-org.github.io/iptv/countries/tr.m3u -o tr.m3u
+
+      - name: Build playlist
+        run: python3 build.py
+
+      - name: Commit changes
+        run: |
+          rm -f az.m3u tr.m3u
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add az-tr.m3u report.txt
+          git diff --staged --quiet || git commit -m "Update playlist"
+          git push
