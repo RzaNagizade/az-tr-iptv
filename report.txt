@@ -1,12 +1,15 @@
 TAPILAN kanallar:
   + Xezer TV
   + ATV
+  + ARB
   + Ictimai TV
+  + Space TV
   + CBC Sport
   + Az TV
   + Real TV
   + Baku TV
-  + APA Tv
+  + Kanal D
+  + TRT 1
   + Show TV
   + TV8
   + Star TV
@@ -14,6 +17,4 @@ TAPILAN kanallar:
   + TRT Spor
 
 TAPILMAYAN kanallar (siyahida yoxdur):
-  - ARB
-  - Space TV
   - FOX / NOW
