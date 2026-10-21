@@ -1,3 +1,53 @@
 #EXTM3U
 #EXTINF:-1,Az TV
 http://149.255.154.194/azertv/index.m3u8
+#EXTINF:-1,Ictimai TV
+http://149.255.154.194/ictimaitele/index.m3u8
+#EXTINF:-1,Xezer TV
+http://149.255.154.194/xazartv/index.m3u8
+#EXTINF:-1,Azad Azerbaycan TV HD
+http://149.255.154.194/atv/index.m3u8
+#EXTINF:-1,ARB
+http://149.255.154.194/arb/index.m3u8
+#EXTINF:-1,Space TV
+http://149.255.154.194/space/index.m3u8
+#EXTINF:-1,ARB24
+http://149.255.154.194/arb24/index.m3u8
+#EXTINF:-1,Real TV
+http://149.255.154.194/real/index.m3u8
+#EXTINF:-1,APA TV HD
+http://149.255.154.194/apatv/index.m3u8
+#EXTINF:-1,Baku TV
+http://149.255.154.194/bakutv/index.m3u8
+#EXTINF:-1,Medeniyyet TV HD
+http://149.255.154.194/medeniyyettele/index.m3u8
+#EXTINF:-1,Naxcivan TV HD
+http://149.255.154.194/ntv/index.m3u8
+#EXTINF:-1,Biznes TV HD
+http://149.255.154.194/biznestv/index.m3u8
+#EXTINF:-1,Kanal S HD
+http://149.255.154.194/start/index.m3u8
+#EXTINF:-1,Qafqaz TV HD
+http://149.255.154.194/qafkaz/index.m3u8
+#EXTINF:-1,ARB Gunes
+http://149.255.154.194/arbgunesh/index.m3u8
+#EXTINF:-1,Kanal 35 HD
+http://149.255.154.194/kanal35/index.m3u8
+#EXTINF:-1,Idman Azerbaycan HD
+http://149.255.154.194/idmantele/index.m3u8
+#EXTINF:-1,VIP TV HD
+http://149.255.154.194/vip/index.m3u8
+#EXTINF:-1,ELTV
+http://149.255.154.194/eltv/index.m3u8
+#EXTINF:-1,CBC AZ
+http://149.255.154.194/cbc/index.m3u8
+#EXTINF:-1,MTV AZ HD
+http://149.255.154.194/mtvaz/index.m3u8
+#EXTINF:-1,Vostok TV
+http://149.255.154.194/tmb/index.m3u8
+#EXTINF:-1,TMB AZ
+http://149.255.154.194/tmbaz/index.m3u8
+#EXTINF:-1,Show Plus
+http://149.255.154.194/showplus/index.m3u8
+#EXTINF:-1,Sehiyye TV
+http://149.255.154.194/shtv/index.m3u8
