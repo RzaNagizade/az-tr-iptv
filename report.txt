@@ -14,7 +14,7 @@ TAPILAN kanallar:
   + TV8
   + Star TV
   + Kanal 7
+  + FOX / NOW
   + TRT Spor
 
 TAPILMAYAN kanallar (siyahida yoxdur):
-  - FOX / NOW
